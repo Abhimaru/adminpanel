@@ -1,0 +1,21 @@
+.latest {
+  .main {
+    // background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .listtitle {
+      font-size: 25px;
+      font-weight: 600;
+    }
+
+    .link {
+      margin-right: 20px;
+      a {
+        color: #fb8500;
+      }
+    }
+  }
+}
