@@ -1,0 +1,43 @@
+.main{
+    display: flex;              
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f8ff;
+    min-height: 100vh;
+
+    .login{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: aqua;
+        height: 40vh;
+        width: 50vw;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+
+        .top{
+            margin-top: 0px;
+            font-size: 24px;
+            margin-bottom: 250px;
+        }
+
+        .center{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            // background-color: red;
+
+            .inputbox{
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                outline: none;
+                border: 0;
+                margin: 10px 0px;
+                width: 350px;
+                height: 30px;
+            }
+        }
+    }
+}
