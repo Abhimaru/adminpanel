@@ -16,7 +16,7 @@ const LatestComplaint = () => {
           <Button title="View All Complaints" />
         </div>
       </div>
-      <BasicTable />
+      {/* <BasicTable /> */}
     </div>
   );
 };

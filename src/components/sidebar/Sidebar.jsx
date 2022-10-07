@@ -3,6 +3,7 @@ import DashboardIcon from "@mui/icons-material/Dashboard";
 import AssignmentIcon from "@mui/icons-material/Assignment";
 import LogoutIcon from "@mui/icons-material/Logout";
 import KeyIcon from "@mui/icons-material/Key";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
@@ -17,21 +18,29 @@ const Sidebar = () => {
           <p className="title">MAIN</p>
           <li>
             <DashboardIcon className="icon" />
-            <span>DashBoard</span>
+            <Link to="/" className="links">
+              DashBoard
+            </Link>
           </li>
           <p className="title">SERVICES</p>
           <li>
             <AssignmentIcon className="icon" />
-            <span>Complaints</span>
+            <Link to="/list" className="links">
+              Complaints
+            </Link>
           </li>
           <p className="title">ADMIN</p>
           <li>
             <KeyIcon className="icon" />
-            <span>Change Password</span>
+            <Link to="/changepass" className="links">
+              Change Password
+            </Link>
           </li>
           <li>
             <LogoutIcon className="icon" />
-            <span>Logout</span>
+            <Link to="logout" className="links">
+              Logout
+            </Link>
           </li>
         </ul>
       </div>

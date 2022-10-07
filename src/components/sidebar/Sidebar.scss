@@ -3,6 +3,7 @@
   border-right: 0.5px solid #fb8500;
   min-height: 100vh;
   background-color: white;
+  max-width: 15%;
 
   .top {
     height: 50px;
@@ -53,11 +54,12 @@
           color: #fb8500;
         }
 
-        span {
+        .links {
           font-size: 16px;
           font-weight: 600;
           color: #999;
           margin-left: 10px;
+          text-decoration: none;
         }
       }
     }
